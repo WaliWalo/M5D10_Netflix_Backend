@@ -279,6 +279,7 @@ router.post(
   cloudinaryMulter.single("media"),
   async (req, res, next) => {
     try {
+      console.log(req.file);
       const mediaDB = await getMedias();
       const selectedMedia = mediaDB.find(
         (media) => media._id === req.params.mediaId
@@ -458,9 +459,10 @@ router.get("/:mediaId/reviews", async (req, res, next) => {
   try {
     const mediaDB = await getMedias();
     const reviewDB = await getReviews();
-    let reviewsForMedia = reviewDB.filter(
-      (review) => review.elementId === req.params.id
-    );
+    let reviewsForMedia = reviewDB.filter((review) => {
+      return review.elementId === req.params.mediaId;
+    });
+    console.log(reviewsForMedia);
     if (reviewsForMedia.length === 0) {
       let err = new Error();
       err.httpStatusCode = 404;
