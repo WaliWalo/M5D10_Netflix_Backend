@@ -1,0 +1,55 @@
+[
+  {
+    "title": "test",
+    "year": 2000,
+    "imdbId": "tt0120737",
+    "type": "movie",
+    "_id": "42u63s3500kiu6wmlj",
+    "Poster": "C:\\Users\\Jin\\Desktop\\Strive\\M5\\M5D10_Netflix_Backend\\public\\img\\medias\\42u63s3500kiu6wmlj.jpg",
+    "reviews": ["42u63s35cwkiuby66n"]
+  },
+  {
+    "title": "test",
+    "year": 2000,
+    "imdbId": "tt0120737",
+    "type": "movie",
+    "_id": "42u63s34m0kiuc2xef"
+  },
+  {
+    "title": "test",
+    "year": 2000,
+    "imdbId": "tt0120737",
+    "type": "movie",
+    "_id": "42u63s36cwkiuc2z9u"
+  },
+  {
+    "title": "test",
+    "year": 2000,
+    "imdbId": "tt0120737",
+    "type": "movie",
+    "_id": "42u63s39z8kiuc2ujy",
+    "reviews": ["42u63s3an4kiuc3q2f"]
+  },
+  {
+    "title": "book",
+    "year": 1920,
+    "imdbId": "tt0120737",
+    "type": "movie",
+    "_id": "42u63s357gkiuc5sy2"
+  },
+  {
+    "title": "book",
+    "year": 1920,
+    "imdbId": "tt0120737",
+    "type": "series",
+    "_id": "42u63s3814kiuc8kag"
+  },
+  {
+    "title": "book",
+    "year": 1900,
+    "imdbId": "tt0120737",
+    "type": "movie",
+    "_id": "42u63s35skkiuc510l",
+    "Poster": "https://res.cloudinary.com/waliwalo/image/upload/v1608301670/netflix/yrkgcz8h2kot5b2hmyx6.jpg"
+  }
+]
