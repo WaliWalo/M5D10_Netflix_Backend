@@ -20,7 +20,7 @@ const publicImageFile = join(__dirname, "../public/img/medias");
 const publicPdfFile = join(__dirname, "../public/pdf");
 const whiteList =
   process.env.NODE_ENV === "production"
-    ? [process.env.FE_PROD, process.env.FE_DEV]
+    ? [process.env.FE_PROD]
     : [process.env.FE_DEV];
 
 const corsOptions = {
