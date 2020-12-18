@@ -233,7 +233,11 @@ router.put("/:mediaId", async (req, res, next) => {
         error.httpStatusCode = 404;
         next(error);
       } else {
-        selectedMedia = { ...req.body, _id: selectedMedia._id };
+        selectedMedia = {
+          ...req.body,
+          _id: selectedMedia._id,
+          reviews: selectedMedia.reviews,
+        };
         mediaDBWithoutSelectedMedia.push(selectedMedia);
         await writeMedia(mediaDBWithoutSelectedMedia);
         res.status(200).send(selectedMedia);
